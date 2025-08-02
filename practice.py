@@ -1,1 +1,2 @@
-print("hello")
+name="mango"
+print(name[:])
