@@ -1,2 +1,3 @@
-name="mango"
-print(name[:])
+name="harry"
+for character in name:
+    print(character)
