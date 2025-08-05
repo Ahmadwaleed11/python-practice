@@ -1,13 +1,6 @@
-name=("!!!!!!!!!!harry    !!!!!!!!a ahmad!!!!!")
-
-print(len(name))
-
-print(name.upper())
-print(name.rstrip("a"))
-head='my nam is harry'
-print(head.capitalize())
-print(head.count('a'))
-print(head.find('a'))
-
-print(head.endswith('harry'))
-print(head.startswith('my'))
+x=int(input('Enter your age: '))
+print('Your age is ',x)
+if(x>18):
+    print('you can drive')
+else:
+    print('you cannot drive')
