@@ -1,6 +1,8 @@
-x=int(input('Enter your age: '))
-print('Your age is ',x)
-if(x>18):
-    print('you can drive')
-else:
-    print('you cannot drive')
+num=20
+if(num<0):
+   print('number is negative')
+elif(num>0):
+   if(num==15):
+      print("number is greater than 15")
+   elif(num==20):
+      print("number is 20")
