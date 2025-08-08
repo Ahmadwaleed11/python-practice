@@ -1,16 +1,8 @@
-def sum(x,y):
-    num=x+y
-    print(num)
+def average(*number):
+    sum=0
+    for i in number:
+        sum=sum+i
+        print('average is ', sum/len(number))
 
 
-
-
-
-
-x=4
-y=5
-sum(x,y)
-
-
-print('hello')
-
+average(2,4,5,6)
