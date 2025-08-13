@@ -24,8 +24,33 @@
 
 ########## symmetric difference set ##################
 
-s1={1,2,3,4}
-s2={3,4,5,6}
-# print(s1.symmetric_difference(s2))
-# print(s1.symmetric_difference_update(s2))
-print(s1.difference(s2))
+# s1={1,2,3,4}
+# s2={3,4,5,6}
+# # print(s1.symmetric_difference(s2))
+# # print(s1.symmetric_difference_update(s2))
+# print(s1.difference(s2))
+
+
+
+######### isdisjoint set ################
+
+# s1={1,2,}
+# s2={3,4,5,6}
+# print(s1.isdisjoint(s2))
+
+########### issuperset set ################
+
+# s1={1,2,3,4}
+# s2={1,2,3,4}
+# s3={3,4,5,6}
+# print(s1.issuperset(s2))
+# print(s1.issuperset(s3))
+
+########### issubset set ################
+
+
+# s1={1,2,3,4}
+# s2={1,2,3,4}
+# s3={3,4,5,6}
+# print(s2.issubset(s1))
+# print(s3.issubset(s1))
