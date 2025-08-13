@@ -54,3 +54,29 @@
 # s3={3,4,5,6}
 # print(s2.issubset(s1))
 # print(s3.issubset(s1))
+
+
+######### add / update / remove / discard / pop / del / clear set ##################
+
+# s1={1,2,3,4,5,6}
+# item=s1.pop()
+# print(item)
+
+# s1.add(5)
+# s1.remove(5)
+# s1.discard(3)
+# s1.update({5,6})
+# s2={3,4,5,6}
+# s2.clear()
+# print(s2)
+# print(s1)
+
+
+###### check itenm ################
+
+
+info={'name','ahmad','age',20}
+if 20 in info:
+    print('yes')
+else:
+    print('no')    
