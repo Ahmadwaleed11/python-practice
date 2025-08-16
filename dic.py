@@ -25,5 +25,8 @@
 
 ep1={1:23,2:34,4:67}
 ep2={123:23,234:12}
-ep1.update(ep2)
+# ep1.update(ep2)    for update
+# ep1.clear()   for clear entire dic
+# ep1.pop(1)   for clear one pair item
+# ep1.popitem()   for clear last pair item
 print(ep1)
