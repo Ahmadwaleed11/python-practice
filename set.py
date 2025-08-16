@@ -26,7 +26,7 @@
 
 # s1={1,2,3,4}
 # s2={3,4,5,6}
-# # print(s1.symmetric_difference(s2))
+# print(s1.symmetric_difference(s2))
 # # print(s1.symmetric_difference_update(s2))
 # print(s1.difference(s2))
 
@@ -75,8 +75,8 @@
 ###### check itenm ################
 
 
-info={'name','ahmad','age',20}
-if 20 in info:
-    print('yes')
-else:
-    print('no')    
+# info={'name','ahmad','age',20}
+# if 20 in info:
+#     print('yes')
+# else:
+#     print('no')    
