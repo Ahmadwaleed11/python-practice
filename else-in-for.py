@@ -37,12 +37,37 @@
 ####### diff except error ######
 
 
-try:
-      num=int(input('enter the number:'))
-      a=[6,7]
-      print(a[num])
-except ValueError:
-      print('invalid value')      
-except IndexError:
-      print('invalid index')      
+# try:
+#       num=int(input('enter the index:'))
+#       a=[6,7,3,4,5,2,4]
+#       print(a[num])
+# except ValueError:
+#       print('invalid value')      
+# except IndexError:
+#       print('invalid index') 
+
+
+
+#######  finally ##########
+
+def fun():
+   try:
+      l=[2,3,4]
+      i=int(input('enter the index:'))
+      print(l[i])
+      return 1
+   except:
+    print('invalid index') 
+    return 0
+
+   finally:
+    print('done') 
+
+#    print('hello')
+x=fun()      
+print(x)
+    
+    
+
+
    
