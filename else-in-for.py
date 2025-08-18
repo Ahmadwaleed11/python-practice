@@ -60,10 +60,10 @@ def fun():
     print('invalid index') 
     return 0
 
-   finally:
-    print('done') 
+#    finally:
+#     print('done') 
 
-#    print('hello')
+   print('hello')
 x=fun()      
 print(x)
     
