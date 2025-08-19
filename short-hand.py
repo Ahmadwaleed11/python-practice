@@ -15,11 +15,11 @@
 #      print('ahmad')
 #     index=index+1
 
-marks=[12,23,45,12,34]
-for index,mark in enumerate(marks,start=1):
-    print(mark)
-    if (index==2):
-     print(index,'ahmad')
+# marks=[12,23,45,12,34]
+# for index,mark in enumerate(marks):
+#     print(mark)
+#     if (index==2):
+#      print(index,'ahmad')
 
 
 # fruit=['apple','banana','orange','peach']
