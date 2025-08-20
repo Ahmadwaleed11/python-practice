@@ -4,5 +4,5 @@ salary=int(input('enter the salary:'))
 
 if(salary<100 or salary>500):
     raise ValueError('salary should be between 100 to 500')
-print('salary is',salary)
+print(salary)
 
