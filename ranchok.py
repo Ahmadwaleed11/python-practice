@@ -17,10 +17,22 @@
 
 ########## writelines() ###########################
 
-f=open('f3.txt', 'w')
-lines=['12,34,56\n','32,45,76\n','67,23,22\n']
-f.writelines(lines)
-f.close
+# f=open('f3.txt', 'w')
+# lines=['12,34,56\n','32,45,76\n','67,23,22\n']
+# f.writelines(lines)
+# f.close
+
+# print(f.write('2,34,56\n'))
+# print(f.write('32,45,76\n'))
+# print(f.write('67,23,22\n'))
+
+######### seek() ######################
 
 
+
+f=open('f3.txt', 'r')
+
+f.seek(8)
+
+print(f.read())
 
