@@ -12,15 +12,16 @@
 
 
 
-x=6
+# x=6
 
-def func():
-    global x   ####### if we want to change global variable
-    x=8
-    y=4
-    print(y)
+# def func():
+#     global x   ####### if we want to change global variable
+#     x=8
+   
+#     y=4
+#     print(y)
 
 
 
-func()    
-print(x)
+# func()    
+# print(x)
