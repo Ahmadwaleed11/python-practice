@@ -30,9 +30,18 @@
 
 
 
-f=open('f3.txt', 'r')
+# f=open('f3.txt', 'r')
 
-f.seek(8) ############ move to the 8 byte of file
-print(f.tell())  ######### tell the current position
-print(f.read())
+# f.seek(8) ############ move to the 8 byte of file
+# print(f.tell())  ######### tell the current position
+# print(f.read())
+
+
+
+########### Truncate func ################
+
+f=open('f3.txt', 'w')
+print(f.write('hello wolrd'))
+f.truncate(8)  ######### how byte we want in file ########
+
 
