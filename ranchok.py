@@ -1,17 +1,26 @@
-f=open('f3.txt', 'r')
+# f=open('f3.txt', 'r')
 
-i=0
-while True:
-     line=f.readline()
-     i=i+1
+# i=0
+# while True:
+#      line=f.readline()
+#      i=i+1
    
-     if not line:
-        break
-     m1=line.split(',')[0]
-     m2=line.split(',')[1]
-     m3=line.split(',')[2]
-     print(f"Marks of student {i} in english:{m1}")
-     print(f"Marks of student {i} in isl:{m2}")
-     print(f"Marks of student {i} in math:{m3}")
+#      if not line:
+#         break
+#      m1=line.split(',')[0]
+#      m2=line.split(',')[1]
+#      m3=line.split(',')[2]
+#      print(f"Marks of student {i} in english:{m1}")
+#      print(f"Marks of student {i} in isl:{m2}")
+#      print(f"Marks of student {i} in math:{m3}")
    
+
+########## writelines() ###########################
+
+f=open('f3.txt', 'w')
+lines=['12,34,56\n','32,45,76\n','67,23,22\n']
+f.writelines(lines)
+f.close
+
+
 
