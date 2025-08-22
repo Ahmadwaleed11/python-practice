@@ -32,7 +32,7 @@
 
 f=open('f3.txt', 'r')
 
-f.seek(8)
-
+f.seek(8) ############ move to the 8 byte of file
+print(f.tell())  ######### tell the current position
 print(f.read())
 
