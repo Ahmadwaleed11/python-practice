@@ -17,11 +17,21 @@
 
 ######### filter ######################
 
-def filter_func(x):
-    return x>23
+# def filter_func(x):
+#     return x>23
 
-l=[22,3,53,33,34,5]
+# l=[22,3,53,33,34,5]
 
-newl=list (filter(filter_func,l))
-print(newl)
+# newl=list (filter(filter_func,l))
+# print(newl)
 
+######### reduce #############
+##### only work when we import
+from functools import reduce
+
+# def sum(x,y):
+#     return x+y
+n=[1,2,3,4,5,6]
+
+add=reduce(lambda x,y:x+y,n)
+print(add)
