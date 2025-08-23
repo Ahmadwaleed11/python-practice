@@ -1,4 +1,7 @@
 # f=open('f3.txt', 'r')
+# line=f.readline()
+# print(line)
+
 
 # i=0
 # while True:
@@ -40,8 +43,8 @@
 
 ########### Truncate func ################
 
-f=open('f3.txt', 'w')
-print(f.write('hello wolrd'))
-f.truncate(8)  ######### how byte we want in file ########
+# f=open('f3.txt', 'w')
+# print(f.write('hello wolrd'))
+# f.truncate(8)  ######### how byte we want in file ########
 
 
