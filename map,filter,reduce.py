@@ -1,18 +1,18 @@
-# def cube(x):
-#     return x*x*x
-# print(cube(3))
+def cube(x):
+    return x*x*x
+print(cube(3))
 
-# l=[2,3,4,5,6]
-# # newl=[]
-# # for item in l:
-# #     newl.append(cube(item))
+l=[2,3,4,5,6]
+# newl=[]
+# for item in l:
+#     newl.append(cube(item))
 
-# # print(newl)  
+# print(newl)  
  
 
 
-# newl=list(map(cube,l) )
-# print(newl)
+newl=list(map(cube,l) )
+print(newl)
 
 
 ######### filter ######################
@@ -27,11 +27,11 @@
 
 ######### reduce #############
 ##### only work when we import
-from functools import reduce
+# from functools import reduce
 
-# def sum(x,y):
-#     return x+y
-n=[1,2,3,4,5,6]
+# def div(x,y):
+#     return x*y
+# n=[1,2,3,4,5,6]
 
-add=reduce(lambda x,y:x+y,n)
-print(add)
+# add=reduce(div,n)
+# print(add)
