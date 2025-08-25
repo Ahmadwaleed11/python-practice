@@ -1,28 +1,22 @@
-from random import choices
+from random import choice
 
-print("welcome to the game")
-print("what are you choosing : rock,paper,scissor")
+print('Welocme to the game')
+print('what are you choosing:')
+print(['rock','paper','scissor'])
 
-userchoice = input('Enter your choice:')
-print("your choice is ", userchoice)
+userchoice=input('enter your choice:')
+print('your choice is ',userchoice)
 
-computerchoice = choices(['rock','paper','scissor'])
+computerchoice=choice(['rock','paper','scissor'])
+print('computer choice is ',computerchoice)
 
-print("computer choice is ", computerchoice)
-
-if(userchoice=='rock' and computerchoice=='rock'):
-  print('tie')
-elif(userchoice=='paper' and computerchoice=='scissor'):
-  print('you win')  
-elif(userchoice=='scissor' and computerchoice=='paper'):
-  print('you loose')  
-elif(userchoice=='paper' and computerchoice=='rock'):
-  print('you loose')  
+if(userchoice==computerchoice):
+    print('tie')
 elif(userchoice=='rock' and computerchoice=='scissor'):
-  print('you win')  
-elif(userchoice=='rock' and computerchoice=='paper'):
-  print('you loose')  
-elif(userchoice=='scissor' and computerchoice=='scissor'):
-  print('you tie')
+    print('you win')
+elif(userchoice=='paper' and computerchoice=='rock'):
+    print('you win')
+elif(userchoice=='scissor' and computerchoice=='paper'):
+    print('you win')
 else:
-  print('you loose')    
+    print('you lose')
