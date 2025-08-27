@@ -3,4 +3,6 @@ class student:
     rollno=23
   
 a=student()
-print(a.name)  
+# a.name='waleed'  ###### if we want to change value
+# a.rollno=45
+print(a.name , a.rollno)  
