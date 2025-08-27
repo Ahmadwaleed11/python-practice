@@ -1,7 +1,7 @@
 class student:
     name='ahmad'
     rollno=23
-    def info(self):
+    def info(self):  ############ it is important when you call in class
         print(f"{self.name} and its roll no is {self.rollno}")
   
 a=student()
