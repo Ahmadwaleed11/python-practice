@@ -1,6 +1,6 @@
 class person:
     def __init__ (self,n,o):
-       print("this is constructor")
+       print("this is constructor")  
        self.name=n
        self.occ=o
     # name='ahmad'
