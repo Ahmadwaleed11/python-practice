@@ -7,21 +7,22 @@
 
 # fun()
 # print(x)
-# # print(y)
+# print(y)
 
 
 
 
-# x=6
+x=6
 
-# def func():
-#     global x   ####### if we want to change global variable
-#     x=8
+def func():
+    global x
+    x=3   ####### if we want to change global variable
+    print(x)
    
-#     y=4
-#     print(y)
+    y=4
+    print(y)
 
 
 
-# func()    
+func()    
 # print(x)
