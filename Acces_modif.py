@@ -10,6 +10,7 @@ class employee:
     def __init__(self):             
         self.__name="harry"        # private classs / can be access indirectly
    
-a=employee()        
+a=employee()     
+  
 print(a._employee__name)
 
