@@ -1,14 +1,15 @@
-class math:
+class student :
     def __init__(self,num):
         self.num=num
-    def addtonum(self,n):
-        self.num=self.num +n  
+    def add(self,add):
+        self.num=self.num+add
     @staticmethod
-    def add(a,b):
-        return a+b    
-a=math(2)
-print(a.num)
-a.addtonum(3)
+    def show(a,b): 
+        return a+b      
+a=student(12)        
 print(a.num)
 
-print(a.add(2,3))
+a.add(23)
+print(a.num)
+
+print(a.show(2,4))
