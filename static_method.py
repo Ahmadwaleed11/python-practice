@@ -12,4 +12,5 @@ print(a.num)
 a.add(23)
 print(a.num)
 
-print(a.show(2,4))
+print(student.show(2,4))  # we eecute the static method with class also
+print(a.show(2,4))       # we execute the static method with object
