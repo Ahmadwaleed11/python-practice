@@ -7,7 +7,7 @@ class student:
         self.id=id
         self.roll=34
 obj=student('ahmad',34)  
-
+# print(help(student))
 print(obj.__dict__)
    
 
