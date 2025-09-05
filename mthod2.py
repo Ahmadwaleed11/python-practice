@@ -18,22 +18,24 @@
 
 
 class Employee:
-  def __init__(self,name,salary):
+  def __init__(self,name,salary,id):
    self.name=name
    self.salary=salary
+   self.id=id
   @classmethod
   def show(cls,string):
-    name,salary=string.split('-')
-    return cls(name,salary)
+    name,salary,id=string.split('-')
+    return cls(name,salary,id)
     # return cls(string.split('-')[0],string.split('-')[1])
  
 
-e1=Employee("ahmad",1200)   
-print(e1.name)
-print(e1.salary)
+# e1=Employee("ahmad",1200)   
+# print(e1.name)
+# print(e1.salary)
 
-string="ahmad-239"
+string="ahmad-2-3"
 e2=Employee.show(string)
 print(e2.name)
 print(e2.salary)
+print(e2.id)
 
