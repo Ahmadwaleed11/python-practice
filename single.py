@@ -1,17 +1,22 @@
 class animal:
-    def __init__(self,name,sound):
+    def __init__(self,name,spec):
         self.name=name
-        self.sound=sound
-    def show(self):
-        print(f"the name of animal is {self.name} and its spec is {self.sound}")    
+        self.spec=spec
+    def show(self) :
+        print(f"the animla is {self.name}")  
+
 class cat(animal):
-    def __init__(self,name,breed):
-     animal.__init__(self,name,sound="dog") 
-     self.breed=breed 
-    def mak_sound(self):
-        print("mew") 
-          
-c=cat("cat","domestic")
-c.mak_sound()
-d=animal("dog","bark")
+    def __init__ (self,name,spec,breed):
+        animal.__init__(self,name,spec)  
+        self.breed=breed
+    def show(self):
+        print(f"the name of animal is {self.name} and the spec is {self.spec} and the bredd is {self.breed}")
+
+
+
+
+
+d=animal("dog","canine")        
 d.show()
+c=cat("cat","feline","domestic")
+c.show()
