@@ -10,7 +10,7 @@ class teacher:
         print(f'the name of teacher is {self.teachername}')         
          
     
-class college(student,teacher):
+class college(teacher,student):
     def __init__(self,name,teachername):
         self.name=name
         self.teachername=teachername
@@ -20,3 +20,4 @@ obj=college("waleed","harry")
 print(obj.name)
 print(obj.teachername)
 obj.show()
+print(college.mro())
