@@ -21,5 +21,5 @@ class golden(dog):
     def show(self):
         dog.show(self)  
         print(f"color:{self.color}")    
-o=dog("billo","russi")
+o=golden("billo","black")
 o.show()
