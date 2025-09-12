@@ -14,7 +14,11 @@ import time
 # sh()
 # print(time.time()- init)        
 
-print(3)
-time.sleep(2)
+# print(3)
+# time.sleep(2)
 
-print("hello")
+# print("hello")
+
+t=time.localtime()
+timeformat=time.strftime("%y-%m-%d, %H:%M:%S",t)
+print(timeformat)
