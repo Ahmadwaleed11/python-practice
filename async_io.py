@@ -14,12 +14,15 @@ async def function3():
    print("hello")
 
 async def main():
- L=await asyncio.gather(
-        function1(),
-        function2(),
-        function3(),
+  await function1()
+  await function2()
+  await function3()
+#  L=await asyncio.gather(
+#         function1(),
+#         function2(),
+#         function3(),
         
-)
- print(L) 
+# )
+#  print(L) 
 asyncio.run(main())
 
